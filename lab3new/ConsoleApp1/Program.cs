@@ -19,8 +19,8 @@ namespace ConsoleApp1
             Console.WriteLine("enter the second side");
             rectangle.Secondside = double.Parse(Console.ReadLine());
             Console.WriteLine("Perimeter and area:");
-            Console.WriteLine($"Perimeter{rectangle.Perimiter}");
-            Console.WriteLine($"Area:{rectangle.Area}");
+            Console.WriteLine($"Perimeter: {rectangle.Perimiter}");
+            Console.WriteLine($"Area: {rectangle.Area}");
         }
     }
 }
